@@ -1,26 +1,50 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  body {
+    font-family: var(--font-cr), sans-serif;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@layer utilities {
+  .font-cr {
+    font-family: var(--font-cr), sans-serif;
+  }
+
+  .text-effect {
+    background: currentColor;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    filter: drop-shadow(2px 2px 0 var(--shadow-color, hsl(38 80% 30%))) drop-shadow(4px 4px 4px hsla(0 0% 0% / 0.5));
+  }
+
+  .text-effect-white {
+    background: currentColor;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    filter: drop-shadow(2px 2px 0 hsl(0 0% 70%)) drop-shadow(4px 4px 4px hsla(0 0% 0% / 0.5));
+  }
+
+  .text-effect-red {
+    background: currentColor;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    filter: drop-shadow(2px 2px 0 hsl(0 70% 30%)) drop-shadow(4px 4px 4px hsla(0 0% 0% / 0.5));
+  }
+
+  .text-effect-black {
+    background: currentColor;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    filter: drop-shadow(2px 2px 0 hsl(0 0% 30%)) drop-shadow(4px 4px 4px hsla(0 0% 0% / 0.5));
+  }
 }
+
+@theme {
+  --color-cr-gold : #fbd764;
+}
+

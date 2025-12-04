@@ -1,0 +1,877 @@
+{
+  "knight": [
+    "mega_knight",
+    "golden_knight",
+    "night_witch",
+    "bandit",
+    "lightning"
+  ],
+  "archers": [
+    "magic_archer",
+    "archer_queen",
+    "arrows",
+    "dagger_duchess",
+    "princess"
+  ],
+  "goblins": [
+    "spear_goblins",
+    "goblinstein",
+    "goblin_gang",
+    "goblin_curse",
+    "dart_goblin"
+  ],
+  "giant": [
+    "rune_giant",
+    "royal_giant",
+    "electro_giant",
+    "goblin_giant",
+    "giant_snowball"
+  ],
+  "pekka": [
+    "mini_pekka",
+    "sparky",
+    "pheonix",
+    "prince",
+    "monk"
+  ],
+  "minions": [
+    "mega_minion",
+    "minion_horde",
+    "monk",
+    "mini_pekka",
+    "miner"
+  ],
+  "balloon": [
+    "fireball",
+    "battle_ram",
+    "clone",
+    "bandit",
+    "wall_breakers"
+  ],
+  "witch": [
+    "mother_witch",
+    "night_witch",
+    "wizard",
+    "ice_wizard",
+    "electro_wizard"
+  ],
+  "barbarians": [
+    "elite_barbarians",
+    "barbarian_hut",
+    "barbarian_barrel",
+    "spear_goblins",
+    "goblins"
+  ],
+  "golem": [
+    "ice_golem",
+    "elixir_golem",
+    "bowler",
+    "goblinstein",
+    "goblin_cage"
+  ],
+  "skeletons": [
+    "skeleton_army",
+    "skeleton_king",
+    "skeleton_dragons",
+    "giant_skeleton",
+    "skeleton_barrel"
+  ],
+  "valkyrie": [
+    "dark_prince",
+    "sparky",
+    "zappies",
+    "prince",
+    "ram_rider"
+  ],
+  "skeleton_army": [
+    "skeleton_barrel",
+    "skeletons",
+    "skeleton_dragons",
+    "skeleton_king",
+    "giant_skeleton"
+  ],
+  "bomber": [
+    "bomb_tower",
+    "bowler",
+    "miner",
+    "lumberjack",
+    "musketeer"
+  ],
+  "musketeer": [
+    "three_musketeers",
+    "hunter",
+    "executioner",
+    "bomber",
+    "firecracker"
+  ],
+  "baby_dragon": [
+    "electro_dragon",
+    "inferno_dragon",
+    "barbarians",
+    "skeleton_dragons",
+    "dart_goblin"
+  ],
+  "prince": [
+    "princess",
+    "dark_prince",
+    "little_prince",
+    "tower_princess",
+    "furnace"
+  ],
+  "wizard": [
+    "ice_wizard",
+    "electro_wizard",
+    "witch",
+    "guards",
+    "firecracker"
+  ],
+  "mini_pekka": [
+    "pekka",
+    "monk",
+    "minion_horde",
+    "minions",
+    "miner"
+  ],
+  "spear_goblins": [
+    "goblins",
+    "dart_goblin",
+    "goblinstein",
+    "goblin_gang",
+    "goblin_curse"
+  ],
+  "giant_skeleton": [
+    "skeletons",
+    "skeleton_king",
+    "skeleton_army",
+    "skeleton_barrel",
+    "skeleton_dragons"
+  ],
+  "hog_rider": [
+    "ram_rider",
+    "mighty_miner",
+    "minion_horde",
+    "void",
+    "royal_delivery"
+  ],
+  "minion_horde": [
+    "minions",
+    "mega_minion",
+    "mini_pekka",
+    "inferno_tower",
+    "miner"
+  ],
+  "ice_wizard": [
+    "wizard",
+    "electro_wizard",
+    "ice_spirit",
+    "mother_witch",
+    "fire_spirit"
+  ],
+  "royal_giant": [
+    "electro_giant",
+    "rune_giant",
+    "giant",
+    "goblin_giant",
+    "royal_hogs"
+  ],
+  "guards": [
+    "graveyard",
+    "bats",
+    "barbarians",
+    "arrows",
+    "bandit"
+  ],
+  "princess": [
+    "prince",
+    "tower_princess",
+    "dark_prince",
+    "little_prince",
+    "vines"
+  ],
+  "dark_prince": [
+    "prince",
+    "princess",
+    "tower_princess",
+    "little_prince",
+    "valkyrie"
+  ],
+  "three_musketeers": [
+    "musketeer",
+    "hunter",
+    "firecracker",
+    "skeleton_dragons",
+    "battle_healer"
+  ],
+  "lava_hound": [
+    "royal_hogs",
+    "balloon",
+    "barbarian_hut",
+    "void",
+    "hunter"
+  ],
+  "ice_spirit": [
+    "fire_spirit",
+    "heal_spirit",
+    "electro_spirit",
+    "spirit_empress",
+    "ice_wizard"
+  ],
+  "fire_spirit": [
+    "ice_spirit",
+    "heal_spirit",
+    "electro_spirit",
+    "spirit_empress",
+    "little_prince"
+  ],
+  "miner": [
+    "mighty_miner",
+    "vines",
+    "ram_rider",
+    "prince",
+    "mini_pekka"
+  ],
+  "sparky": [
+    "valkyrie",
+    "pekka",
+    "berserker",
+    "cannon_cart",
+    "tesla"
+  ],
+  "bowler": [
+    "bomber",
+    "bomb_tower",
+    "x_bow",
+    "golem",
+    "goblin_demolisher"
+  ],
+  "lumberjack": [
+    "berserker",
+    "bomber",
+    "fisherman",
+    "mini_pekka",
+    "firecracker"
+  ],
+  "battle_ram": [
+    "battle_healer",
+    "balloon",
+    "wall_breakers",
+    "bowler",
+    "little_prince"
+  ],
+  "inferno_dragon": [
+    "electro_dragon",
+    "baby_dragon",
+    "inferno_tower",
+    "skeleton_dragons",
+    "electro_giant"
+  ],
+  "ice_golem": [
+    "elixir_golem",
+    "golem",
+    "rune_giant",
+    "giant_snowball",
+    "spear_goblins"
+  ],
+  "mega_minion": [
+    "minions",
+    "mega_knight",
+    "minion_horde",
+    "mighty_miner",
+    "pheonix"
+  ],
+  "dart_goblin": [
+    "spear_goblins",
+    "goblins",
+    "goblinstein",
+    "goblin_hut",
+    "goblin_gang"
+  ],
+  "goblin_gang": [
+    "goblin_giant",
+    "goblin_machine",
+    "goblins",
+    "goblin_cage",
+    "goblin_barrel"
+  ],
+  "electro_wizard": [
+    "ice_wizard",
+    "wizard",
+    "electro_spirit",
+    "electro_giant",
+    "electro_dragon"
+  ],
+  "elite_barbarians": [
+    "barbarians",
+    "barbarian_hut",
+    "barbarian_barrel",
+    "skeleton_barrel",
+    "little_prince"
+  ],
+  "hunter": [
+    "musketeer",
+    "executioner",
+    "three_musketeers",
+    "furnace",
+    "miner"
+  ],
+  "executioner": [
+    "hunter",
+    "three_musketeers",
+    "musketeer",
+    "electro_wizard",
+    "electro_dragon"
+  ],
+  "bandit": [
+    "boss_bandit",
+    "bats",
+    "knight",
+    "giant",
+    "mega_knight"
+  ],
+  "royal_recruits": [
+    "royal_hogs",
+    "royal_ghost",
+    "royal_giant",
+    "royal_chef",
+    "royal_delivery"
+  ],
+  "night_witch": [
+    "witch",
+    "mother_witch",
+    "knight",
+    "mighty_miner",
+    "ice_wizard"
+  ],
+  "bats": [
+    "bandit",
+    "barbarians",
+    "guards",
+    "zappies",
+    "goblins"
+  ],
+  "royal_ghost": [
+    "royal_hogs",
+    "royal_chef",
+    "royal_giant",
+    "royal_recruits",
+    "royal_delivery"
+  ],
+  "ram_rider": [
+    "hog_rider",
+    "miner",
+    "royal_delivery",
+    "dark_prince",
+    "mighty_miner"
+  ],
+  "zappies": [
+    "zap",
+    "princess",
+    "bats",
+    "valkyrie",
+    "barbarians"
+  ],
+  "rascals": [
+    "royal_hogs",
+    "barbarians",
+    "royal_ghost",
+    "royal_recruits",
+    "graveyard"
+  ],
+  "cannon_cart": [
+    "cannon",
+    "cannoneer",
+    "executioner",
+    "firecracker",
+    "inferno_tower"
+  ],
+  "mega_knight": [
+    "knight",
+    "golden_knight",
+    "mega_minion",
+    "giant",
+    "rune_giant"
+  ],
+  "skeleton_barrel": [
+    "skeleton_army",
+    "skeletons",
+    "skeleton_king",
+    "skeleton_dragons",
+    "goblin_barrel"
+  ],
+  "flying_machine": [
+    "goblin_machine",
+    "firecracker",
+    "furnace",
+    "goblin_demolisher",
+    "minions"
+  ],
+  "wall_breakers": [
+    "battle_ram",
+    "berserker",
+    "ram_rider",
+    "royal_recruits",
+    "elite_barbarians"
+  ],
+  "royal_hogs": [
+    "royal_ghost",
+    "royal_chef",
+    "royal_giant",
+    "royal_recruits",
+    "royal_delivery"
+  ],
+  "goblin_giant": [
+    "goblin_gang",
+    "royal_giant",
+    "goblin_machine",
+    "goblinstein",
+    "goblin_hut"
+  ],
+  "fisherman": [
+    "elite_barbarians",
+    "lumberjack",
+    "mini_pekka",
+    "pheonix",
+    "monk"
+  ],
+  "magic_archer": [
+    "archers",
+    "archer_queen",
+    "ice_wizard",
+    "miner",
+    "dagger_duchess"
+  ],
+  "electro_dragon": [
+    "inferno_dragon",
+    "skeleton_dragons",
+    "baby_dragon",
+    "electro_giant",
+    "electro_wizard"
+  ],
+  "firecracker": [
+    "furnace",
+    "berserker",
+    "flying_machine",
+    "fire_spirit",
+    "executioner"
+  ],
+  "mighty_miner": [
+    "miner",
+    "lightning",
+    "night_witch",
+    "mega_minion",
+    "flying_machine"
+  ],
+  "elixir_golem": [
+    "ice_golem",
+    "golem",
+    "elixir_collector",
+    "electro_giant",
+    "spear_goblins"
+  ],
+  "battle_healer": [
+    "battle_ram",
+    "bandit",
+    "bowler",
+    "valkyrie",
+    "fisherman"
+  ],
+  "skeleton_king": [
+    "skeletons",
+    "skeleton_army",
+    "skeleton_dragons",
+    "giant_skeleton",
+    "skeleton_barrel"
+  ],
+  "archer_queen": [
+    "archers",
+    "magic_archer",
+    "earthquake",
+    "royal_recruits",
+    "royal_chef"
+  ],
+  "golden_knight": [
+    "mega_knight",
+    "knight",
+    "goblin_hut",
+    "goblin_gang",
+    "goblin_giant"
+  ],
+  "skeleton_dragons": [
+    "skeletons",
+    "electro_dragon",
+    "skeleton_army",
+    "skeleton_king",
+    "skeleton_barrel"
+  ],
+  "mother_witch": [
+    "witch",
+    "night_witch",
+    "ice_wizard",
+    "electro_wizard",
+    "heal_spirit"
+  ],
+  "electro_spirit": [
+    "heal_spirit",
+    "ice_spirit",
+    "fire_spirit",
+    "electro_wizard",
+    "electro_giant"
+  ],
+  "electro_giant": [
+    "royal_giant",
+    "rune_giant",
+    "giant",
+    "electro_dragon",
+    "electro_wizard"
+  ],
+  "heal_spirit": [
+    "ice_spirit",
+    "fire_spirit",
+    "electro_spirit",
+    "spirit_empress",
+    "mega_minion"
+  ],
+  "pheonix": [
+    "mega_minion",
+    "fisherman",
+    "monk",
+    "minions",
+    "boss_bandit"
+  ],
+  "monk": [
+    "minions",
+    "mini_pekka",
+    "pheonix",
+    "miner",
+    "mega_minion"
+  ],
+  "little_prince": [
+    "tower_princess",
+    "prince",
+    "princess",
+    "dark_prince",
+    "goblinstein"
+  ],
+  "goblin_demolisher": [
+    "goblinstein",
+    "goblin_hut",
+    "goblin_drill",
+    "goblins",
+    "goblin_machine"
+  ],
+  "goblin_machine": [
+    "goblin_gang",
+    "goblin_giant",
+    "goblinstein",
+    "goblin_demolisher",
+    "goblin_cage"
+  ],
+  "suspicious_bush": [
+    "minions",
+    "minion_horde",
+    "spirit_empress",
+    "wall_breakers",
+    "ice_golem"
+  ],
+  "goblinstein": [
+    "goblins",
+    "goblin_machine",
+    "goblin_curse",
+    "goblin_hut",
+    "goblin_gang"
+  ],
+  "rune_giant": [
+    "giant",
+    "royal_giant",
+    "electro_giant",
+    "goblin_giant",
+    "giant_snowball"
+  ],
+  "berserker": [
+    "lumberjack",
+    "firecracker",
+    "bomber",
+    "bowler",
+    "battle_healer"
+  ],
+  "boss_bandit": [
+    "bandit",
+    "royal_giant",
+    "golden_knight",
+    "mega_knight",
+    "electro_giant"
+  ],
+  "spirit_empress": [
+    "ice_spirit",
+    "heal_spirit",
+    "fire_spirit",
+    "electro_spirit",
+    "princess"
+  ],
+  "cannon": [
+    "cannoneer",
+    "cannon_cart",
+    "clone",
+    "inferno_tower",
+    "mega_minion"
+  ],
+  "goblin_hut": [
+    "goblin_curse",
+    "goblin_cage",
+    "goblin_drill",
+    "goblin_giant",
+    "goblin_gang"
+  ],
+  "mortar": [
+    "bomb_tower",
+    "mirror",
+    "tesla",
+    "tornado",
+    "mother_witch"
+  ],
+  "inferno_tower": [
+    "bomb_tower",
+    "inferno_dragon",
+    "furnace",
+    "electro_wizard",
+    "cannon"
+  ],
+  "bomb_tower": [
+    "bomber",
+    "inferno_tower",
+    "tombstone",
+    "bowler",
+    "x_bow"
+  ],
+  "barbarian_hut": [
+    "barbarians",
+    "goblin_hut",
+    "barbarian_barrel",
+    "elite_barbarians",
+    "goblin_cage"
+  ],
+  "tesla": [
+    "the_log",
+    "mortar",
+    "bats",
+    "hunter",
+    "bomb_tower"
+  ],
+  "elixir_collector": [
+    "elixir_golem",
+    "inferno_tower",
+    "executioner",
+    "goblin_cage",
+    "goblin_drill"
+  ],
+  "x_bow": [
+    "bowler",
+    "bomb_tower",
+    "inferno_tower",
+    "elixir_collector",
+    "bomber"
+  ],
+  "tombstone": [
+    "bomb_tower",
+    "poison",
+    "goblin_cage",
+    "bomber",
+    "clone"
+  ],
+  "furnace": [
+    "firecracker",
+    "inferno_tower",
+    "prince",
+    "flying_machine",
+    "princess"
+  ],
+  "goblin_cage": [
+    "goblin_gang",
+    "goblin_curse",
+    "goblin_barrel",
+    "goblin_hut",
+    "goblin_drill"
+  ],
+  "goblin_drill": [
+    "goblin_barrel",
+    "goblin_cage",
+    "goblin_hut",
+    "goblin_curse",
+    "goblin_giant"
+  ],
+  "fireball": [
+    "freeze",
+    "giant_snowball",
+    "balloon",
+    "firecracker",
+    "graveyard"
+  ],
+  "arrows": [
+    "mirror",
+    "archers",
+    "poison",
+    "rocket",
+    "guards"
+  ],
+  "rage": [
+    "earthquake",
+    "graveyard",
+    "freeze",
+    "furnace",
+    "rocket"
+  ],
+  "rocket": [
+    "rage",
+    "earthquake",
+    "clone",
+    "freeze",
+    "arrows"
+  ],
+  "goblin_barrel": [
+    "goblin_curse",
+    "goblin_cage",
+    "goblin_drill",
+    "goblin_gang",
+    "goblin_machine"
+  ],
+  "freeze": [
+    "fireball",
+    "rage",
+    "rocket",
+    "furnace",
+    "firecracker"
+  ],
+  "mirror": [
+    "arrows",
+    "miner",
+    "mortar",
+    "poison",
+    "tornado"
+  ],
+  "lightning": [
+    "mighty_miner",
+    "skeleton_king",
+    "knight",
+    "night_witch",
+    "goblin_gang"
+  ],
+  "zap": [
+    "zappies",
+    "rage",
+    "wizard",
+    "arrows",
+    "freeze"
+  ],
+  "poison": [
+    "tombstone",
+    "void",
+    "clone",
+    "vines",
+    "arrows"
+  ],
+  "graveyard": [
+    "rage",
+    "guards",
+    "royal_delivery",
+    "tornado",
+    "earthquake"
+  ],
+  "the_log": [
+    "tesla",
+    "earthquake",
+    "clone",
+    "tornado",
+    "pheonix"
+  ],
+  "tornado": [
+    "void",
+    "rage",
+    "graveyard",
+    "clone",
+    "poison"
+  ],
+  "clone": [
+    "cannoneer",
+    "vines",
+    "cannon",
+    "poison",
+    "rocket"
+  ],
+  "earthquake": [
+    "rocket",
+    "the_log",
+    "archer_queen",
+    "graveyard",
+    "archers"
+  ],
+  "barbarian_barrel": [
+    "goblin_barrel",
+    "barbarian_hut",
+    "barbarians",
+    "elite_barbarians",
+    "skeleton_barrel"
+  ],
+  "giant_snowball": [
+    "giant",
+    "goblin_barrel",
+    "fireball",
+    "giant_skeleton",
+    "rune_giant"
+  ],
+  "royal_delivery": [
+    "royal_chef",
+    "royal_recruits",
+    "royal_ghost",
+    "royal_hogs",
+    "royal_giant"
+  ],
+  "void": [
+    "vines",
+    "poison",
+    "tornado",
+    "graveyard",
+    "hog_rider"
+  ],
+  "goblin_curse": [
+    "goblin_cage",
+    "goblin_barrel",
+    "goblin_hut",
+    "goblins",
+    "goblin_drill"
+  ],
+  "vines": [
+    "void",
+    "miner",
+    "clone",
+    "princess",
+    "poison"
+  ],
+  "tower_princess": [
+    "princess",
+    "little_prince",
+    "dark_prince",
+    "prince",
+    "dagger_duchess"
+  ],
+  "cannoneer": [
+    "cannon",
+    "cannon_cart",
+    "clone",
+    "executioner",
+    "inferno_tower"
+  ],
+  "dagger_duchess": [
+    "tower_princess",
+    "archers",
+    "royal_chef",
+    "princess",
+    "magic_archer"
+  ],
+  "royal_chef": [
+    "royal_ghost",
+    "royal_hogs",
+    "royal_delivery",
+    "royal_recruits",
+    "dagger_duchess"
+  ]
+}
