@@ -52,7 +52,7 @@ export const CardReveal = () => {
     }
     
     return (
-        <div className="flex flex-col items-center justify-center gap-7 py-30"> 
+        <div className="flex flex-col items-center justify-center gap-7 py-5"> 
             {currentPhase == 0 && (
                 <>
                     <div className="flex items-center justify-center px-9 py-1 rounded-full border border-2 border-cr-gold bg-linear-to-b from-[#7acdff] to-[#1a6ed2]">
@@ -74,7 +74,7 @@ export const CardReveal = () => {
                     <Image
                         src={`/images/cards/${currentCard}.webp`}
                         alt="card"
-                        height={500}
+                        height={400}
                         width={500}
                         placeholder="blur"
                         blurDataURL={blurDataURL}

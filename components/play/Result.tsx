@@ -42,7 +42,7 @@ export const Result = () => {
     };
 
     return (
-        <div className="h-full flex flex-col py-20 items-center justify-center gap-10">
+        <div className="h-full flex flex-col py-5 items-center justify-center gap-10">
             {isCrew ? (
                 <div className="bg-gradient-to-b from-[#ffe27a] w-full py-5 to-[#d28f1a] border-2 border-cr-gold rounded-lg flex items-center justify-center">
                     <p className="text-white text-effect-black text-4xl text-center">Victory!</p>
