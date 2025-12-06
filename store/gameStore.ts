@@ -45,7 +45,7 @@ export const useGameStore = create<GameStore>((set, get) => ({
     const randomIndex = Math.floor(Math.random() * cardNames.length);
     const trueCard = cardNames[randomIndex];
     const imposters = imposterData[trueCard as keyof typeof imposterData];
-    const randomImposterIndex = Math.floor(Math.random() * imposters.length);
+    const randomImposterIndex = Math.floor(Math.random() * 2);
     const imposterCard = imposters[randomImposterIndex];
     
     // Create players
