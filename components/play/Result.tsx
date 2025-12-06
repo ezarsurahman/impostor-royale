@@ -34,7 +34,7 @@ export const Result = () => {
         window.addEventListener('resize', updateSize)
         return () => window.removeEventListener('resize', updateSize)
     }, [])
-
+// 
     const isCrew = winner == "crew"
 
     const blurDataURL = (card:string | null) => {
