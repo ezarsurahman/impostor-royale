@@ -5,6 +5,7 @@ import { Button } from "../common/Button"
 import Image from "next/image"
 import blurHashes from "@/data/blurHashes.json"
 import { decode } from "blurhash"
+import { motion, AnimatePresence } from "framer-motion"
 
 export const CardReveal = () => {
     const {
@@ -53,38 +54,64 @@ export const CardReveal = () => {
     
     return (
         <div className="flex flex-col items-center justify-center gap-7 py-5"> 
-            {currentPhase == 0 && (
-                <>
-                    <div className="flex items-center justify-center px-9 py-1 rounded-full border border-2 border-cr-gold bg-linear-to-b from-[#7acdff] to-[#1a6ed2]">
-                        <p className="text-[60px] text-cr-gold">
-                            {currentPlayerIdx + 1}
-                        </p>
-                    </div>
-                    <div className="flex flex-col items-center justify-center gap-2">
-                        <p className=" text-3xl text-effect text-cr-gold">Player {currentPlayerIdx+1}</p>
-                        <p className="text-white text-center">Make sure no one else can see the screen!</p>
-                    </div>
-                    <Button type="yellow" onClick={() => setCurrentPhase(1)}>
-                        <p className="text-white text-effect-black">Tap to reveal</p>
-                    </Button>
-                </>
-            )}
-            {currentPhase == 1 && (
-                <>
-                    <Image
-                        src={`/images/cards/${currentCard}.webp`}
-                        alt="card"
-                        height={400}
-                        width={500}
-                        placeholder="blur"
-                        blurDataURL={blurDataURL}
-                        priority
-                    />
-                    <Button type="blue" onClick={nextPerson}>
-                        <p className="text-white">Hide Card</p>
-                    </Button>
-                </>
-            )}
+            <AnimatePresence mode="wait">
+                {currentPhase == 0 && (
+                    <motion.div
+                        key="phase0"
+                        initial={{ scale: 0, opacity: 0 }}
+                        animate={{ scale: 1, opacity: 1 }}
+                        exit={{ scale: 0, opacity: 0 }}
+                        transition={{ 
+                            type: "spring",
+                            stiffness: 200,
+                            damping: 25,
+                            duration: 0.6
+                        }}
+                        className="flex flex-col items-center justify-center gap-7"
+                    >
+                        <div className="flex items-center justify-center px-9 py-1 rounded-full border-2 border-cr-gold bg-linear-to-b from-[#7acdff] to-[#1a6ed2]">
+                            <p className="text-[60px] text-cr-gold">
+                                {currentPlayerIdx + 1}
+                            </p>
+                        </div>
+                        <div className="flex flex-col items-center justify-center gap-2">
+                            <p className=" text-3xl text-effect text-cr-gold">Player {currentPlayerIdx+1}</p>
+                            <p className="text-white text-center">Make sure no one else can see the screen!</p>
+                        </div>
+                        <Button type="yellow" onClick={() => setCurrentPhase(1)}>
+                            <p className="text-white text-effect-black">Tap to reveal</p>
+                        </Button>
+                    </motion.div>
+                )}
+                {currentPhase == 1 && (
+                    <motion.div
+                        key="phase1"
+                        initial={{ scale: 0, opacity: 0 }}
+                        animate={{ scale: 1, opacity: 1 }}
+                        exit={{ scale: 0, opacity: 0 }}
+                        transition={{ 
+                            type: "spring",
+                            stiffness: 200,
+                            damping: 25,
+                            duration: 0.6
+                        }}
+                        className="flex flex-col items-center justify-center gap-7"
+                    >
+                        <Image
+                            src={`/images/cards/${currentCard}.webp`}
+                            alt="card"
+                            height={400}
+                            width={500}
+                            placeholder="blur"
+                            blurDataURL={blurDataURL}
+                            priority
+                        />
+                        <Button type="blue" onClick={nextPerson}>
+                            <p className="text-white">Hide Card</p>
+                        </Button>
+                    </motion.div>
+                )}
+            </AnimatePresence>
             <div className="flex gap-3">
                 {Array.from({length:2}, (_,index) => {
                     return (
