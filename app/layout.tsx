@@ -20,8 +20,37 @@ const crFont = localFont({
 })
 
 export const metadata: Metadata = {
-  title: "Imposter Royale",
-  description: "Jarvick",
+  title: "Impostor Royale - Clash Royale Party Game",
+  description: "Find the impostor card in this fun multiplayer party game! Based on Clash Royale cards. Play with 3-10 friends.",
+  keywords: ["impostor royale", "clash royale", "party game", "multiplayer game", "card game", "impostor game"],
+  authors: [{ name: "Your Name" }],
+  openGraph: {
+    title: "Impostor Royale - Clash Royale Party Game",
+    description: "Find the impostor card! A fun Clash Royale-themed party game for 3-10 players.",
+    url: "https://www.improyale.my.id",
+    siteName: "Impostor Royale",
+    images: [
+      {
+        url: "/images/improyale-fav.png",
+        width: 1200,
+        height: 630,
+        alt: "Impostor Royale Game"
+      }
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Impostor Royale",
+    description: "Find the impostor card in this Clash Royale party game!",
+    images: ["/images/improyale-fav.png"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+  viewport: "width=device-width, initial-scale=1",
 };
 
 export default function RootLayout({
