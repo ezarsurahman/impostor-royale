@@ -589,7 +589,7 @@
   ],
   "goblin_drill": [
     "goblin_barrel",
-    "goblin",           
+    "goblins",           
     "goblin_barrel",   
     "x_bow",           
     "mortar"           
@@ -624,7 +624,7 @@
   ],
   "goblin_barrel": [
     "skeleton_barrel", 
-    "goblin",           
+    "goblins",           
     "wall_breakers",   
     "goblin_curse",
     "graveyard"        
