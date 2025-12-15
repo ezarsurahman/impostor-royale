@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     siteName: "Impostor Royale",
     images: [
       {
-        url: "/images/improyale-fav.png",
+        url: "https://www.improyale.my.id/images/improyale-fav.png",
         width: 1200,
         height: 630,
         alt: "Impostor Royale Game"
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Impostor Royale",
     description: "Find the impostor card in this Clash Royale party game!",
-    images: ["/images/improyale-fav.png"],
+    images: ["https://www.improyale.my.id/images/improyale-fav.png"],
   },
   robots: {
     index: true,
@@ -60,6 +60,32 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebApplication",
+              "name": "Impostor Royale",
+              "description": "Find the impostor card in this fun multiplayer party game! Based on Clash Royale cards. Play with 3-10 friends.",
+              "url": "https://www.improyale.my.id",
+              "applicationCategory": "Game",
+              "genre": "Party Game",
+              "offers": {
+                "@type": "Offer",
+                "price": "0",
+                "priceCurrency": "USD"
+              },
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "5",
+                "ratingCount": "1"
+              }
+            })
+          }}
+        />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${crFont.variable} antialiased font-cr bg-linear-to-b from-[#00aaff] to-[#002c81] min-h-screen`}
       >

@@ -6,7 +6,7 @@ import { motion } from "framer-motion"
 
 export const Home = () => {
     return (
-        <div className="h-full flex flex-col items-center justify-center p-20 gap-5">
+        <main className="h-full flex flex-col items-center justify-center p-20 gap-5">
             <motion.div 
                 className="flex flex-col items-center justify-center gap-5"
                 animate={{ 
@@ -22,13 +22,15 @@ export const Home = () => {
                     src={`/images/improyale-fav.png`}
                     height={200}
                     width={200}
-                    alt="Imposter Royale"
+                    alt="Impostor Royale logo featuring Clash Royale themed game icon"
                     className="rounded-lg shadow-2xl border-cr-gold"
+                    priority
                 />
-                <p className="text-[2.5rem] text-center text-cr-gold text-effect"><span className="text-red-400 text-effect-red">Imposter</span> Royale</p>
+                <h1 className="text-[2.5rem] text-center text-cr-gold text-effect"><span className="text-red-400 text-effect-red">Impostor</span> Royale</h1>
             </motion.div>
             <motion.a 
                 href="/play"
+                aria-label="Start playing Impostor Royale game"
                 animate={{
                     boxShadow: [
                         "0 0 0px #ffd700",
@@ -47,6 +49,6 @@ export const Home = () => {
                     <p className="text-black">Play</p>
                 </Button>
             </motion.a>
-        </div>
+        </main>
     )
 }
