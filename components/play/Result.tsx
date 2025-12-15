@@ -167,7 +167,7 @@ export const Result = () => {
             </motion.div>
 
             <motion.div 
-                className="flex flex-col gap-3 items-center justify-center w-full md:px-50"
+                className="flex flex-col gap-3 items-center justify-center w-full px-0 md:px-20"
                 initial={{ scale: 0, opacity: 0 }}
                 animate={{ scale: 1, opacity: 1 }}
                 transition={{ 

@@ -6,10 +6,13 @@ import { useState } from "react"
 export const Voting = () => {
     const {
         players,
-        votePlayer
+        votePlayer,
+        imposterPlayerId
     } = useGameStore()
 
     const [showModal, setShowModal] = useState(false)
+    const [notImpostorName, setNotImpostorName] = useState<string | null>()
+    const [showNotImpostorModal, setShowNotImpostorModal] = useState(false)
     const [selectedPlayer, setSelectedPlayer] = useState<{ id: string; name: string } | null>(null)
 
     const handleVoteClick = (player: { id: string; name: string }) => {
@@ -23,6 +26,17 @@ export const Voting = () => {
         }
         setShowModal(false)
         setSelectedPlayer(null)
+
+        const alivePlayers = players.filter((p) => p.isAlive);
+        if(selectedPlayer?.id !== imposterPlayerId && alivePlayers.length > 2) {
+            setShowNotImpostorModal(true)
+            setNotImpostorName(selectedPlayer?.name || "")
+        }
+    }
+
+    const closeNotImpostorModal = () => {
+        setNotImpostorName(null)
+        setShowNotImpostorModal(false)
     }
 
     const cancelVote = () => {
@@ -41,6 +55,7 @@ export const Voting = () => {
                             className="flex" 
                             type="blue"
                             onClick={() => handleVoteClick(player)}
+                            disabled={!player.isAlive}
                         >
                             <p className="text-2xl text-effect-white">{player.name}</p>
                         </Button>
@@ -63,6 +78,22 @@ export const Voting = () => {
                                 <p className="text-black text-xl text-effect-white">No</p>
                             </Button>
                         </div>
+                    </div>
+                </div>
+            )}
+
+            {showNotImpostorModal && (
+                <div className="fixed inset-0 bg-black/40 bg-opacity-70 flex items-center justify-center z-50">
+                    <div className="bg-gradient-to-b from-[#ff7a7a] to-[#d21a1a] border-2 border-red-500 rounded-xl p-8 flex flex-col gap-6 items-center max-w-md">
+                        <p className="text-3xl text-center font-cr text-white text-effect-black">
+                            Wrong Choice!
+                        </p>
+                        <p className="text-xl text-center font-cr text-white">
+                            <span className="font-bold">{notImpostorName}</span> is NOT the Impostor!
+                        </p>
+                        <Button type="blue" onClick={closeNotImpostorModal}>
+                            <p className="text-white text-xl text-effect-black">Continue</p>
+                        </Button>
                     </div>
                 </div>
             )}

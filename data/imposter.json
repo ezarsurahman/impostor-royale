@@ -29,7 +29,7 @@
   ],
   "pekka": [
     "mini_pekka",
-    "sparky",          
+    "mega_knight",          
     "mega_knight",     
     "golem",           
     "electro_giant"    
@@ -43,7 +43,7 @@
   ],
   "balloon": [
     "lava_hound",
-    "inferno_dragon",  
+    "skeleton_barrel",  
     "baby_dragon",     
     "mega_minion",
     "pheonix"
@@ -57,7 +57,7 @@
   ],
   "barbarians": [
     "elite_barbarians",
-    "royal_recruits",  
+    "barbarian_barrel",  
     "guards",
     "rascals",         
     "skeleton_army"    
@@ -77,8 +77,8 @@
     "skeleton_dragons" 
   ],
   "valkyrie": [
-    "dark_prince",     
-    "mega_knight",     
+    "executioner",     
+    "knight",     
     "bowler",
     "sparky",
     "bomber"
@@ -89,13 +89,6 @@
     "goblin_gang",     
     "bats",            
     "skeleton_king"
-  ],
-  "bomber": [
-    "bowler",
-    "executioner",     
-    "wizard",          
-    "witch",           
-    "valkyrie"
   ],
   "musketeer": [
     "hunter",
@@ -127,7 +120,7 @@
   ],
   "mini_pekka": [
     "pekka",
-    "lumberjack",      
+    "pekka",      
     "knight",          
     "valkyrie",        
     "prince"           
@@ -148,7 +141,7 @@
   ],
   "hog_rider": [
     "ram_rider",       
-    "battle_ram",
+    "royal_hogs",
     "wall_breakers",
     "royal_hogs",
     "prince"
@@ -180,13 +173,6 @@
     "elite_barbarians",
     "rascals",         
     "knight"           
-  ],
-  "princess": [
-    "archer_queen",    
-    "prince",
-    "little_prince",
-    "dart_goblin",     
-    "firecracker"
   ],
   "dark_prince": [
     "prince",
@@ -224,7 +210,7 @@
     "bandit"           
   ],
   "battle_ram": [
-    "wall_breakers",
+    "ram_rider",
     "hog_rider",       
     "ram_rider",       
     "royal_hogs",
@@ -253,7 +239,7 @@
   ],
   "dart_goblin": [
     "spear_goblins",
-    "princess",        
+    "goblins",        
     "goblinstein",
     "goblins",
     "goblin_gang"
@@ -274,7 +260,7 @@
   ],
   "elite_barbarians": [
     "barbarians",
-    "mini_pekka",      
+    "barbarian_barrel",      
     "lumberjack",      
     "prince",          
     "knight"           
@@ -294,7 +280,7 @@
     "ram_rider"        
   ],
   "royal_recruits": [
-    "barbarians",      
+    "royal_delivery",      
     "royal_delivery",
     "guards",          
     "royal_ghost",
@@ -330,7 +316,7 @@
   ],
   "mega_knight": [
     "golden_knight",
-    "knight",
+    "pekka",
     "pekka",           
     "valkyrie",        
     "golem"            
@@ -350,8 +336,8 @@
     "electro_dragon"   
   ],
   "wall_breakers": [
-    "battle_ram",
-    "skeleton_barrel", 
+    "bomber",
+    "bomber", 
     "goblin_barrel",   
     "hog_rider",       
     "miner"            
@@ -369,13 +355,6 @@
     "goblin_gang",     
     "goblin_machine",
     "electro_giant"
-  ],
-  "magic_archer": [
-    "princess",        
-    "archers",
-    "archer_queen",
-    "dart_goblin",     
-    "firecracker"      
   ],
   "electro_dragon": [
     "baby_dragon",
@@ -461,13 +440,6 @@
     "spirit_empress",
     "battle_healer"    
   ],
-  "pheonix": [
-    "baby_dragon",     
-    "mega_minion",
-    "inferno_dragon",  
-    "lava_hound",      
-    "electro_dragon"   
-  ],
   "goblin_demolisher": [
     "goblin_machine",
     "goblinstein",
@@ -498,7 +470,7 @@
   ],
   "berserker": [
     "lumberjack",      
-    "mini_pekka",      
+    "lumberjack",      
     "elite_barbarians",
     "battle_healer",
     "knight"           
@@ -722,17 +694,10 @@
   ],
   "void": [
     "poison",          
-    "graveyard",       
+    "lightning",       
     "tornado",         
     "freeze",          
     "earthquake"       
-  ],
-  "goblin_curse": [
-    "goblin_barrel",
-    "skeleton_barrel", 
-    "graveyard",       
-    "miner",           
-    "clone"            
   ],
   "vines": [
     "poison",          
